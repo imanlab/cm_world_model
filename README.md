@@ -1,4 +1,4 @@
-# CM World Model: Cross-Modal World Models for Occlusion Handling in Robotic Manipulation
+# CM World Action Model: Cross-Modal World Models for Occlusion Handling in Robotic Manipulation
 
 > **Predicting Visual States from Tactile Feedback for Occlusion Handling in Robotic Manipulation**
 
