@@ -33,7 +33,7 @@ During manipulation, the robot arm, tool, or clutter can fully occlude the objec
 Inspired by human visuo-tactile reasoning, we use tactile sensing to reconstruct the hidden visual scene and preserve controller performance.
 
 <p align="center">
-  <img src="img/basic_abstract_image_007.png" width="900" alt="Motivation and Overview"/>
+  <img src="img/basic_abstract_image_007.png" width="50%" alt="Motivation and Overview"/>
 </p>
 
 ---
@@ -49,7 +49,7 @@ Occluded visual frames, tactile observations, robot states, and future actions a
 The model reconstructs both visual and tactile states while predicting future scene evolution.
 
 <p align="center">
-  <img src="img/OcclusionTraining.png" width="850" alt="Occlusion Training Pipeline"/>
+  <img src="img/OcclusionTraining.png" width="50%" alt="Occlusion Training Pipeline"/>
 </p>
 
 ### Transformer Architecture
@@ -57,7 +57,7 @@ The model reconstructs both visual and tactile states while predicting future sc
 Visual patches and tactile tokens are embedded and processed using a causal transformer architecture that prevents access to future information during rollout prediction.
 
 <p align="center">
-  <img src="img/MMSTT.drawio.png" width="850" alt="Transformer Architecture"/>
+  <img src="img/MMSTT.drawio.png" width="30%" alt="Transformer Architecture"/>
 </p>
 
 ---
